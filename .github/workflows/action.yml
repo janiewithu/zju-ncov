@@ -32,11 +32,6 @@ jobs:
             dingtalk_token: DINGTALK_TOKEN
             pushplus_token: PUSHPLUS_TOKEN
             serverchan_key: SERVERCHAN_KEY
-          - username: ZJU_USERNAME_SYL
-            password: ZJU_PASSWORD_SYL
-            dingtalk_token: DINGTALK_TOKEN
-            pushplus_token: PUSHPLUS_TOKEN
-            serverchan_key: SERVERCHAN_KEY
           - username: ZJU_USERNAME_KYH
             password: ZJU_PASSWORD_KYH
             dingtalk_token: DINGTALK_TOKEN
