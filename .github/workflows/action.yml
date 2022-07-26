@@ -3,7 +3,7 @@ name: 'ZJU-nCov-Hitcarder Action'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 21 * * *'
 
 jobs:
   main:
@@ -19,6 +19,11 @@ jobs:
             serverchan_key: SERVERCHAN_KEY
           - username: ZJU_USERNAME_WWX
             password: ZJU_PASSWORD_WWX
+            dingtalk_token: DINGTALK_TOKEN
+            pushplus_token: PUSHPLUS_TOKEN
+            serverchan_key: SERVERCHAN_KEY
+          - username: ZJU_USERNAME_KYH
+            password: ZJU_PASSWORD_KYH
             dingtalk_token: DINGTALK_TOKEN
             pushplus_token: PUSHPLUS_TOKEN
             serverchan_key: SERVERCHAN_KEY
